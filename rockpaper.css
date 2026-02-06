@@ -1,0 +1,59 @@
+body{
+    background-color: #f1f1f1;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+}
+h1{
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 100px;
+
+}
+p{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+.btn{
+    display: flex;
+    justify-content: center;
+
+
+}
+button{
+    border: none;
+    font-size: 3rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blueviolet;
+    transition: all.3s ease-in-out;
+}
+button:hover{
+    opacity: 0.7;
+
+}
+#rock{
+    background-color: red;
+
+}
+#paper{
+    background-color: blue;
+
+}
+#scissors{
+    background-color: green;
+
+}
+#userscore{
+    color: blue;
+
+}
+#computerscore{
+    color: rgb(193, 40, 154);
+}
